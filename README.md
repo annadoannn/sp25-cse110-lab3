@@ -1,2 +1,5 @@
 # Lab 2 - Starter
-[URL to published site](https://annadoannn.github.io/Lab2/)
+[Click me to go to the published site!](https://annadoannn.github.io/Lab2/)
+
+URL:
+https://annadoannn.github.io/Lab2/
