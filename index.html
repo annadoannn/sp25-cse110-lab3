@@ -12,6 +12,8 @@
             <h3>Date: 04/15/2025</h3>
         </header>
 
+        <hr>
+
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -19,6 +21,8 @@
                 <li><a href="meeting_apr22.html">Next Meeting (Page DNE)</a></li>
             </ul>
         </nav>
+
+        <hr>
 
         <main>
             <section>
@@ -29,6 +33,8 @@
                     <li>Person #3</li>
                 </ul>
             </section>
+            
+            <hr>
 
             <section>
                 <h2>Agenda</h2>
@@ -63,12 +69,118 @@
 
             <section>
                 <h2>Pictures Presented During the Meeting</h2> 
+                <h3>Whiteboard Diagram</h3>
+                <figure>
+                    <img src="images/diagram.png" alt="Whiteboard sketch" width="400">
+                    <figcaption>Pomodoro Timer Architecture taken from a Google Search</figcaption>
+                </figure>
+                <p>Link to the source image: <a href="https://miro.medium.com/v2/resize:fit:1200/1*xFq24MEhgiCotkqm8j7zYQ.jpeg" target="_blank">Link</a></p>
 
             </section>
+
+           
         </main>
+
+        <hr>
+
+        <section>
+            <h2>Audio Recording</h2>
+    
+            <h2>Video Recording</h2>
+        </section>
+
+        <section>
+            <h2>Meeting Summary</h2>
+            <p>This was our <strong>first</strong> meeting focused on the initial brainstorming for the Pomodoro Timer project. Team members contributed <em>great</em> ideas on features and design goals.</p>
+            <p>We agreed on using a <i>simple</i> structure first and expanding later. Anna suggested we check out <b>popular timer apps</b> before deciding which direction we should take on for our project.</p>
+            <p>For updates on our project, visit our <a href="https://github.com/annadoannn/Lab2/tree/main" target="_blank">GitHub repository</a>.</p>
+        </section>
         
+        <section>
+            <h2>Steps for Next Meeting</h2>
+            <ol>
+                <li>Assign roles to each member</li>
+                <li>Basic UI layout</li>
+                <li> Create GitHub repo</li>
+            </ol>
+            <h2>Action Items</h2>
+            <p>
+                <strong>Important:</strong> All members should upload sketches the night before the next meeting.<br>
+                <em>Note:</em> Use filenames like <code>sketch_name_date.jpg</code> when submitting.
+            </p>
+        </section>
+
+        <div>
+            <h2>Open Comments</h2>
+            <p><span><b>Anna:</b></span> Let's bring one example of a Pomodoro app for the next meeting</p>
+            <p><span><b>Gordan Ramsey:</b></span> We could also survey users for their input on the most useful features.</p>
+        </div>
+
+        <section>
+            <h2>Optional Discussion Topics</h2>
+            <details>
+                <summary>Design Questions</summary>
+                <p>Should we implement light/dark mode toggles in the future?</p>
+            </details>
+            <details>
+                <summary>Stretch Goals</summary>
+                <p>Gamify the timer (badges, pet, rewards, friendly leaderboards).</p>
+            </details>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Fun Feedback Form</h2>
+            <form>
+                <fieldset>
+                    <legend>Quick Survey</legend>
+        
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"><br><br>
+        
+                    <label for="birthday">Birthday:</label>
+                    <input type="date" id="birthday" name="birthday"><br><br>
+        
+                    <label>Favorite Work Style:</label><br>
+                    <input type="radio" id="solo" name="workstyle" value="solo">
+                    <label for="solo">Solo</label><br>
+                    <input type="radio" id="team" name="workstyle" value="team">
+                    <label for="team">Team</label><br><br>
+        
+                    <label>Tools You’ve Used:</label><br>
+                    <input type="checkbox" id="slack" name="tools" value="Slack">
+                    <label for="slack">Slack</label><br>
+                    <input type="checkbox" id="zoom" name="tools" value="Zoom">
+                    <label for="zoom">Zoom</label><br><br>
+        
+                    <label for="mood">How are you feeling today?</label><br>
+                    <select id="mood" name="mood">
+                        <option value="motivated">Motivated</option>
+                        <option value="tired">Tired</option>
+                        <option value="curious">Curious</option>
+                    </select><br><br>
+        
+                    <label for="tech">Favorite Tech (start typing):</label><br>
+                    <input list="tech-options" id="tech" name="tech">
+                    <datalist id="tech-options">
+                        <option value="VSCode">
+                        <option value="GitHub">
+                        <option value="Figma">
+                    </datalist><br><br>
+        
+                    <label for="comments">Any comments?</label><br>
+                    <textarea id="comments" name="comments" rows="4" cols="40"></textarea><br><br>
+        
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </section>
+
+        <hr>
+
         <footer>
-            <p>Pomodoro Timer Meeting Notes By Anna Doan</p>
+            <h6>Pomodoro Timer Meeting Notes By Anna Doan</h6>
         </footer>
 
     </body>
