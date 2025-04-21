@@ -1,5 +1,2 @@
-# Lab 2 - Starter
-[Click me to go to the published site!](https://annadoannn.github.io/Lab2/)
-
-URL:
-https://annadoannn.github.io/Lab2/
+# Lab 3
+GitHub Pages URL: (https://annadoannn.github.io/sp25-cse110-lab3/)
