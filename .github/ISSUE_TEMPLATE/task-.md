@@ -1,9 +1,9 @@
 ---
-name: 'Task:'
+name: 'Task: '
 about: Give a short summary of the task
-title: ''
+title: 'Template'
 labels: ''
-assignees: ''
+assignees: '@annadoannn'
 
 ---
 
