@@ -1,8 +1,8 @@
 # Standup Notes Template
-<hr> 
+
 
 ## Team Name
-**Team 23: The Gigachadhas*
+**Team 23: The Gigachadhas**
 
 ## Date and Time
 *April 22, 2024 11:00AM*
@@ -14,15 +14,16 @@
 - *Location(s)*: Giesel 2E and Zoom
 <hr>
 
-# Overview
-Brief summary of the meeting here. 
-
----
-
+# Overview 
+| :-------------- | :----------------|
 | **Meeting Facilitator(s)** | Sarah Chun, Luis Zaragoza |
 | **Attendees** | Thomas A Powell, Devanshi Chadha, Anna Doan, etc. |
 | **Meeting Notes** | *insert url here* |
 | **Next Team Meeting** | *April 24, 2025 6:20PM* |
+
+---
+
+Brief summary of the meeting here.
 
 # Team Updates
 - Something fun about your task
