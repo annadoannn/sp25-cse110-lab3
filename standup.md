@@ -19,11 +19,14 @@
 | :-------------- | :----------------|
 | **Attendees** | Thomas A Powell, Devanshi Chadha, Anna Doan, etc. |
 | **Meeting Notes** | *insert url here* |
-| **Next Team Meeting** | **April 24, 2025 6:20PM** *Happy Birthday, Anna!!*|
+| **Next Team Meeting** | **April 24, 2025 6:20PM**  *(Happy Birthday, Anna!!)*|
 
 ---
+
 ## Summary 
 Brief summary of the meeting here.
+
+---
 
 
 # Team Updates
@@ -42,14 +45,13 @@ Brief summary of the meeting here.
 - task 2
 - task 3
 
----
-
 
 # Action Items 
 Add action items here during the meeting and check off as you make progress
 - [ ] task 1
 - [ ] task 2
 - [ ] task 3
+
 
 # What To Work On After The Meeting
 | **Group** | **Task** |
