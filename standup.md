@@ -19,7 +19,7 @@
 | :-------------- | :----------------|
 | **Attendees** | Thomas A Powell, Devanshi Chadha, Anna Doan, etc. |
 | **Meeting Notes** | *insert url here* |
-| **Next Team Meeting** | *April 24, 2025 6:20PM* |
+| **Next Team Meeting** | **April 24, 2025 6:20PM** *Happy Birthday, Anna!!*|
 
 ---
 ## Summary 
