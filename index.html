@@ -4,6 +4,10 @@
         <meta charset="UTF-8">
         <title>First Meeting Notes</title>
         <link rel="icon" href="images/notes.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
     </head>
     <body>
         <p>Favicon source: <a href="https://cdn-icons-png.flaticon.com/512/8317/8317718.png">link</a></p>
@@ -16,11 +20,11 @@
         <hr>
 
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="meeting_apr08.html">Previous Meeting (Page DNE)</a></li>
-                <li><a href="meeting_apr22.html">Next Meeting (Page DNE)</a></li>
-            </ul>
+            
+            <a href="index.html">Home</a>
+            <a href="meeting_apr08.html">Previous Meeting (Page DNE)</a>
+            <a href="meeting_apr22.html">Next Meeting (Page DNE)</a>
+            
         </nav>
 
         <hr>
@@ -28,7 +32,7 @@
         <main>
             <section>
                 <h2>Attendance</h2>
-                <ul>
+                <ul class="attendance">
                     <li>Anna Doan</li>
                     <li>Gordan Ramsey</li>
                     <li>Person #3</li>
@@ -79,6 +83,14 @@
 
             </section>
 
+            <h2>Quick Notes</h2>
+            <div class="grid-container">
+                <div>note 1</div>
+                <div>note 2</div>
+                <div>note 3</div>
+            </div>
+              
+
            
         </main>
 
@@ -116,6 +128,7 @@
                 <li>Basic UI layout</li>
                 <li> Create GitHub repo</li>
             </ol>
+
             <h2>Action Items</h2>
             <p>
                 <strong>Important:</strong> All members should upload sketches the night before the next meeting.<br>
@@ -177,7 +190,7 @@
                         <option value="curious">Curious</option>
                     </select><br><br>
         
-                    <label for="tech">Favorite Tech (start typing):</label><br>
+                    <label for="tech">Favorite Tech:</label><br>
                     <input list="tech-options" id="tech" name="tech">
                     <datalist id="tech-options">
                         <option value="VSCode">
