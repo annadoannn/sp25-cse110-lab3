@@ -1,0 +1,97 @@
+/* this is a comment in CSS */
+
+/* defined CSS variables */
+:root {
+    --page-bg: #567895;
+    --text-main: white;
+}
+  
+
+/* applying colors to my HTML elements */
+/* made the paragraph text midnight blue */
+p {
+    color: midnightblue;
+}
+
+h1, h2, h3, h6, ol, ul, figcaption, details {
+    color: var(--text-main, white); /* fallback */
+}
+
+hr {
+    /* background-color instance #5 */
+    background-color: whitesmoke;
+    color: white;
+    height: 0.1lh;
+    margin: 1em 0;
+}
+
+/*Used hex code here*/
+a {
+    color: #74A662;
+}
+
+body {
+    /* background-color instance #5 */
+    background-color: var(--page-bg, #567895); /* fallback */
+}
+
+/* hsla here */
+.attendance{
+    /* background-color instance #1 */
+    background-color: hsla(60, 63%, 88%, 0.959);  
+    color: hsla(32, 100%, 51%, 0.906);            
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+/* wider-gamut colors here */
+section form {
+    /* background-color instance #2 */
+    background-color: color-mix(in srgb, white 60%, purple 40%);
+    padding: 2rem;
+    border-radius: 1rem;
+    color: white;
+    font-family: sans-serif;
+}
+
+fieldset {
+    border: 3px solid color-mix(in srgb, midnightblue 70%, purple 30%);
+    padding: 1.5rem;
+}
+
+label, legend {
+    color: color(display-p3 0.698 0.133 0.133 / 0.85);
+    font-weight: bold;
+}
+
+input, select, textarea {
+    /* background-color instance #3 */
+    background-color: color(display-p3 0.9 0.9 1 / 0.8);
+    border: 1px solid color(display-p3 0.5 0.5 0.9);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: black;
+}
+
+button {
+    /* background-color instance #4 */
+    background-color: color-mix(in srgb, lavender 75%, beige 25%);
+    color: grey;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 0.75rem;
+    font-weight: bold;
+}
+
+/* 
+Absolute Units Used : 
+- px
+- 
+- 
+
+Relative Units Used:
+- em / rem 
+- lh 
+-
+
+*/
