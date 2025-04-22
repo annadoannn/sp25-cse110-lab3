@@ -23,6 +23,7 @@ hr {
     color: white;
     height: 0.1lh;
     margin: 1em 0;
+    width: 25cm;
 }
 
 /*Used hex code here*/
@@ -62,6 +63,7 @@ fieldset {
 label, legend {
     color: color(display-p3 0.698 0.133 0.133 / 0.85);
     font-weight: bold;
+    font-size: 11.5pt;
 }
 
 input, select, textarea {
@@ -83,15 +85,24 @@ button {
     font-weight: bold;
 }
 
+
+footer {
+    padding-bottom: 0.1in;
+}
+  
+
+
 /* 
 Absolute Units Used : 
 - px
-- 
-- 
+- pt
+- cm
+- in
 
 Relative Units Used:
-- em / rem 
+- em 
 - lh 
--
+- rem
 
 */
+
