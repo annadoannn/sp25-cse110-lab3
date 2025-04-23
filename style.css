@@ -249,7 +249,7 @@ nav a:hover {
 }
 
 a:active {
-    color: deeppink;
+    color: palevioletred;
 }
 
 /* Layouts */
@@ -386,9 +386,27 @@ section:has(form) {
         font-weight: bold;
   
         &:hover {
-          background-color: pink;
+          background-color: palevioletred;
         }
       }
     }
 }
+
+.example {
+    font-family: system-ui;
+    font-size: 0.3em;
+    margin: auto 1rem;
+  
+    & > a {
+      color: paleturquoise;
+  
+      &:hover,
+      &:focus {
+        color: ivory;
+        background-color: rgb(218, 143, 44);
+      }
+    }
+}
+  
+
   
