@@ -290,6 +290,14 @@ nav {
     }
 }
 
+@media screen and (max-width: 480px) {
+    body {
+      font-size: 0.9rem;
+    }
+}
+  
+
+
 /* font */
 h1, h2, h3, label, legend, button  {
     font-family: "Special Gothic Expanded One", sans-serif;
